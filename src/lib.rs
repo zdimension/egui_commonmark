@@ -32,6 +32,8 @@ use std::collections::HashMap;
 
 use egui::{self, text::LayoutJob, Id, RichText, TextStyle, Ui};
 
+pub use egui_commonmark_macros::*;
+
 mod elements;
 mod parsers;
 

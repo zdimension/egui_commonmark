@@ -26,6 +26,8 @@ document-features = { version = "0.2", optional = true }
 comrak = { version = "0.20.0", default-features = false, optional = true }
 pulldown-cmark = { version = "0.9.3", default-features = false, optional = true }
 
+egui_commonmark_macros = { version = "0.1", path = "./macros" }
+
 [features]
 default = ["load-images", "pulldown_cmark"]
 
